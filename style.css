@@ -217,6 +217,7 @@ nav .signup{
 	visibility: hidden;
 	opacity: 0;
 	transition: opacity .5s , visibility .5s;
+	padding: 0 10px;
 }
 .home-info-active{
 	visibility: visible !important;
@@ -263,7 +264,7 @@ nav .signup{
 .main-container .home-content .home-info h3{
 	font-size: 2.5rem;
 	color: var(--alg-white-color);
-	text-transform: capitalizes;
+	text-transform: capitalize;
 }
 .main-container .slide-points {
 	position: absolute;
@@ -278,7 +279,7 @@ nav .signup{
 	background-color: var(--hov-color);
 	border-radius: 50%;
 }.main-container .slide-points span:nth-child(2){
-	margin: 0 5pxgN;
+	margin: 0 5px;
 }
 .main-container .slide-points span.point-active{
 	background-color: rgb(142 144 151);
